@@ -1,0 +1,117 @@
+.header {
+    
+    position: relative;
+    animation-name: example;
+    animation-duration: 1s;  
+    animation-delay: 1s;
+    animation-fill-mode: backwards;
+  }
+  
+  @keyframes example {
+    from {top: 0px; }
+    to {top: 20px;}
+  }
+.gallery{
+    padding: 40px;
+    
+}
+.carousel-indicators [data-bs-target]{
+    width: 0;
+}
+.carousel1 {
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 5px;
+}
+img, svg{
+    padding: 2px;
+}
+.button{
+    background-color: #024;
+    border: 1px solid #024;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+.react-tweet-theme {
+    max-width: 250px !important;
+    height: 400px;
+    overflow-y: scroll !important;
+    --tweet-container-margin: 0 !important;
+}
+
+ul .links a{
+  color: black;
+  
+  
+}
+ul .links{
+    list-style: none;
+    text-align: left;
+    
+}
+.mainpart{
+    display: flex;
+    justify-content: space-around;
+    
+    padding: 40px;
+}
+.accordion{
+    width: 300px;
+    text-align: left;
+}
+.events{
+    display: block;
+    width: 350px;
+}
+.footer1{
+    background-color: #f6f3ee !important;
+}
+@media(max-width:640px){
+    .mainpart{
+        display: block;
+        
+    }
+    .accordion {
+        margin-left: auto !important; 
+        margin-right:auto !important;
+    }
+    .react-tweet-theme{
+        margin-left: auto !important; 
+        margin-right:auto !important;
+    }
+    ul .links{
+        list-style: none;
+        text-align: center;
+        margin-left: auto !important; 
+        margin-right:auto !important;
+    }
+    .events{
+        display: block;
+        width: 350px;
+        margin-left: auto !important; 
+        margin-right:auto !important;
+    }
+    h3{
+        text-align: center !important;
+    }
+    .about{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+
+    }
+    .twit{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        width: 150px; 
+    }
+}
+@media(max-width:800px){
+    .events{
+        
+        width: 250px;
+        
+    }
+}
+

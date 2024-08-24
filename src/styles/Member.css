@@ -1,0 +1,38 @@
+/* .box{
+    height: 130px;
+    width: 100%;
+    position: relative;
+    background-color: black;
+}
+.box .image{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.box .image span{
+    width: 25%;
+    height: 100%;
+    background: url(../images/hero.png);
+    transition: 0.5s;
+}
+.box .image span:nth-child(1){
+    background-position: 0%;
+    transition-delay: 0s;
+}
+.box .image span:nth-child(2){
+    background-position: 33%;
+    transition-delay: 0.2s;
+}
+.box .image span:nth-child(3){
+    background-position: 66%;
+    transition-delay: 0.4s;
+}
+.box .image span:nth-child(4){
+    background-position: 100%;
+    transition-delay: 0.6s;
+}
+.box .image span{
+    transform: translateY(20%);
+    
+} */

@@ -1,0 +1,15 @@
+.contact{
+    padding: 20px 0px;
+}
+.contactInfo{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media(max-width:640px) {
+    .contactInfo{
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

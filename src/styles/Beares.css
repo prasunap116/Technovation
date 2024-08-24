@@ -1,0 +1,35 @@
+.table>:not(caption)>*>*{
+    vertical-align: middle;
+}
+.table{
+    width: 700px;
+    margin-top: 20px;
+}
+@media only screen and (max-width: 640px) {
+    .table{
+        width: 400px;
+    }
+    thead th {
+        display: none;
+    }
+
+    .table td {
+        display: block;
+        padding-right: 20px;
+    }
+    .table tbody tr {
+        margin-bottom: 15px;
+    }
+    .table tbody tr td{
+        text-align: right;
+        position: relative;
+    }
+    .table td::before{
+        content: attr(data-label);
+        position: absolute;
+        left: 20px;
+        vertical-align: middle;
+        font-weight: bold;
+    }
+    
+}
